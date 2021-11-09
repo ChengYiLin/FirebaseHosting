@@ -19,3 +19,8 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_THE_BUS_F3EC2 }}'
           channelId: live
           projectId: the-bus-f3ec2
+
+  build_test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: npm install
