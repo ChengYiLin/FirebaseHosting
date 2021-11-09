@@ -24,7 +24,7 @@ const App: FC = () => {
 	return (
 		<Container>
 			<h1>Hello React 17</h1>
-			<p>PR Test</p>
+			<p>PR Merge</p>
 			<Image />
 		</Container>
 	);
